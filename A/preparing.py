@@ -1,0 +1,1 @@
+open("./A/index.h", "w").write("void print_value(int value, bool flag);\n")
