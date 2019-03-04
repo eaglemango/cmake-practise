@@ -31,6 +31,8 @@ int main() {
     prepare_counter(c);
 
     print_value(c->get_value(), c->get_flag());
+    
+    delete c;
 
     return 0;
 }
